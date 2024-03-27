@@ -13,6 +13,7 @@
 - [Dataset](#dataset)
 - [Weights](#weights)
 - [Demo](#demo)
+- [Train](#train)
 - [Evaluation](#evaluation)
 
 
@@ -30,6 +31,12 @@ cd LITA
 ```Shell
 pip install --upgrade pip  # enable PEP 660 support
 pip install -e .
+```
+
+4. Install additional packages for training cases
+```
+pip install ninja
+pip install flash-attn --no-build-isolation
 ```
 
 
@@ -64,6 +71,29 @@ python -m lita.serve.cli \
     --visual-path <video-path> --visual-data-type video
 ```
 `<video-path>` is the path to the input video. Inference with quantized bits (`--load-4bit` or `--load-8bit`) also works here.
+
+
+## Train
+
+The LITA model only uses one stage supervised fine-tuning. The linear projection is initialized by the LLaVA pretrained wieghts. The training uses 8 A100 GPUs with 80GB memory.
+
+### Prepare public checkpoints from Vicuna, LLaVA
+
+```Shell
+git clone https://huggingface.co/lmsys/vicuna-13b-v1.3
+git clone https://huggingface.co/liuhaotian/llava-pretrain-vicuna-13b-v1.3
+mv vicuna-13b-v1.3 vicuna-v1-3-13b
+mv llava-pretrain-vicuna-13b-v1.3 llava-vicuna-v1-3-13b-pretrain
+```
+Similarly for 7B checkpoints. Replace `13b` with `7b` in the above commands.
+
+### Supervised Fine-tuning
+
+The LITA model can be trained using the supervised fine-tuning script [here](scripts/finetune_vid.sh). First update information in the script such as dataset directory (`--data_path`) and checkpoint directory (`./checkpoints`).
+```Shell
+cd LITA
+sh scripts/finetune_vid.sh
+```
 
 
 ## Evaluation
