@@ -2,7 +2,7 @@
 
 [De-An Huang](https://ai.stanford.edu/~dahuang/), [Shijia Liao](), [Subhashree Radhakrishnan](), [Hongxu Yin](https://hongxu-yin.github.io/), [Pavlo Molchanov](https://www.pmolchanov.com/), [Zhiding Yu](https://chrisding.github.io/), [Jan Kautz](https://jankautz.com/)
 
-[[`arXiv`](https://arxiv.org/abs/XXXX.XXXXX)] [[`Project`]()] [[`BibTeX`](#Citation)]
+[[`arXiv`](https://arxiv.org/abs/2403.19046)] [[`Project`]()] [[`BibTeX`](#Citation)]
 
 
 <img src="https://ai.stanford.edu/~dahuang/images/lita_beam.gif" height="400"/> <img src="https://ai.stanford.edu/~dahuang/images/lita_scuba.gif" height="400"/>
@@ -144,9 +144,9 @@ For business inquiries, please visit our website and submit the form: [NVIDIA Re
 If you find LITA useful for your research and applications, please cite using this BibTeX:
 ```bibtex
 @article{huang2024lita,
-  title={LITA: Language Instructed Temporal-localization Assistant},
+  title={LITA: Language Instructed Temporal-Localization Assistant},
   author={De-An Huang and Shijia Liao and Subhashree Radhakrishnan and Hongxu Yin and Pavlo Molchanov and Zhiding Yu and Jan Kautz},
-  journal={arXiv preprint},
+  journal={arXiv preprint arXiv:2403.19046},
   year={2024}
 }
 ```

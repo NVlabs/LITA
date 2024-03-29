@@ -18,7 +18,7 @@ from transformers import TextStreamer
 
 title_markdown = ("""
 # LITA: Language Instructed Temporal-localization Assistant
-[[Paper]](https://arxiv.org/abs/XXXX.XXXX) [[Code]](https://github.com/NVlabs/LITA)
+[[Paper]](https://arxiv.org/abs/2403.19046) [[Code]](https://github.com/NVlabs/LITA)
 """)
 
 block_css = """
