@@ -75,7 +75,7 @@ python -m lita.serve.cli \
 
 ## Train
 
-The LITA model only uses one stage supervised fine-tuning. The linear projection is initialized by the LLaVA pretrained wieghts. The training uses 8 A100 GPUs with 80GB memory.
+The LITA model only uses one stage supervised fine-tuning. The linear projection is initialized by the LLaVA pretrained weights. The training uses 8 A100 GPUs with 80GB memory.
 
 ### Prepare public checkpoints from Vicuna, LLaVA
 
