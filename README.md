@@ -23,7 +23,7 @@
 
 2. Clone this repository and navigate to LITA folder
 ```bash
-git clone https://gitlab-master.nvidia.com/deahuang/LITA.git
+git clone https://github.com/NVlabs/LITA.git
 cd LITA
 ```
 
