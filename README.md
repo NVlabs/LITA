@@ -143,10 +143,10 @@ For business inquiries, please visit our website and submit the form: [NVIDIA Re
 
 If you find LITA useful for your research and applications, please cite using this BibTeX:
 ```bibtex
-@article{huang2024lita,
+@inproceedings{huang2024lita,
   title={LITA: Language Instructed Temporal-Localization Assistant},
   author={De-An Huang and Shijia Liao and Subhashree Radhakrishnan and Hongxu Yin and Pavlo Molchanov and Zhiding Yu and Jan Kautz},
-  journal={arXiv preprint arXiv:2403.19046},
+  booktitle={ECCV},
   year={2024}
 }
 ```
