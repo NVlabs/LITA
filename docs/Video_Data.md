@@ -1,6 +1,6 @@
 ## Preparing Datasets for LITA
 
-All datasets should be under a dataset root folder (`--data-path`). An example of dataset root folder is [here](https://drive.google.com/drive/folders/19PiWIiEGtm8c3sNgM-CCJhDelS_a3K7A?usp=drive_link). Some directories already contain processed data. We will fill the empty/partial directories by the following instructions.
+All datasets should be under a dataset root folder (`--data-path`). An example of dataset root folder is [here](https://huggingface.co/datasets/deahuang/LITA-Datasets/tree/main). Some directories already contain processed data. We will fill the empty/partial directories by the following instructions.
 
 
 ### Dense Video Captioning and Event Localization

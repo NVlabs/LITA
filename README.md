@@ -49,7 +49,7 @@ See [Preparing Datasets for LITA](docs/Video_Data.md).
 
 | Model Name | LLM version | Weights |
 |------------|:---------------:|:---------:|
-| LITA-13B-v1.3 | [Vicuna-13B-v1.3](https://huggingface.co/lmsys/vicuna-13b-v1.3) | [Link](https://drive.google.com/drive/u/2/folders/1-P7p-tq5aXZzSoefEJx4PSFKH8jt8KWy) |
+| LITA-13B-v1.3 | [Vicuna-13B-v1.3](https://huggingface.co/lmsys/vicuna-13b-v1.3) | [Link](https://huggingface.co/deahuang/lita-vicuna-v1-3-13b) |
 
 
 ## Gradio Demo
