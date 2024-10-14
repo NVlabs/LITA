@@ -98,7 +98,7 @@ sh scripts/finetune_vid.sh
 
 ## Evaluation
 
-We provide the evaluation pipeline for the [ActivityNet-RTL](https://drive.google.com/drive/folders/1a9mM9h2vV-b9uH6gmYDDyGzrWDJee3Uc?usp=drive_link) dataset. Please first follow the [dataset instruction](docs/Video_Data.md#reasoning-temporal-localization) and refer to our paper for more details. 
+We provide the evaluation pipeline for the [ActivityNet-RTL](https://huggingface.co/datasets/deahuang/LITA-Datasets/tree/main/temporal_reasoning) dataset. Please first follow the [dataset instruction](docs/Video_Data.md#reasoning-temporal-localization) and refer to our paper for more details. 
 
 1. Generate LITA responses and evaluate temporal localization metrics (mIOU and P@0.5)
 ```Shell
